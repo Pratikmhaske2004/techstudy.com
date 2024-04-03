@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subone {
+    margin-top: 50px;
+    position: relative;
+    height: 90%;
+    width: 90%;
+    background-repeat: no-repeat;
+
+}
+
+.subone img {
+    position: relative;
+    height: 90%;
+    width: 90%;
+    border-radius: 9px;
+    box-shadow: 3px 3px 9px rgb(102, 102, 102);
+}
+
+.subone h2 {
+    position: absolute;
+    top: 106px;
+    left: 95px;
+    color: white;
+}
+
+.subone p {
+    font-weight: 200;
+    font-size: 15px;
+    position: absolute;
+    top: 159px;
+    left: 99px;
+    width: 600px;
+    color: white;
+
+}
+
+.login-main {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 400px;
+    right: 0px;
+    top: 0;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 9px rgb(102, 102, 102);
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inp {
+    width: 250px;
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(228, 228, 228);
+}
+
+.btn button {
+    height: 30px;
+    border-radius: 16px;
+    border: none;
+    width: 120px;
+    background: linear-gradient(45deg, #ffa3a3, #7cbdff);
+}

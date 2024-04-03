@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.navbar{
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+h1{
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: bold;
+    
+}
+
+main{
+    background-image: url(cs.jpg);
+    background-size: cover;
+    padding: 0px;
+    height: 1024px;
+}
+
+    
+
+a{
+    margin-block: 15px;
+    display: inline-block;
+    text-align: left;
+    color: aqua;
+    align-items: left;
+
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: violet;
+    border: 2px solid white;
+
+}
+
+
+footer{
+    padding-bottom: 0px;
+    background-color: black;
+    text-align: right;
+    color:red;
+    font-size: large;
+}
+
+
+    
